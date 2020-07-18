@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUPActivity">
+
+
+    <EditText
+
+        android:id="@+id/editTextUserName"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:hint="User Name"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="213dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+
+    <Button
+
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
